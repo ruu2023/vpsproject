@@ -52,4 +52,4 @@ production:
   <<: *default
   database: vpsproject_production
   username: rails_user
-  password: <%= ENV["VPSPROJECT_DATABASE_PASSWORD"] %>
+  password: eFaazae4
