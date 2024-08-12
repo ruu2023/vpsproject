@@ -51,5 +51,7 @@ test:
 production:
   <<: *default
   database: vpsproject_production
+  pool: 5
   username: rails_user
   password: eFaazae4
+  socket: /run/mysqld/mysqld.sock
