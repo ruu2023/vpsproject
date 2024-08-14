@@ -51,7 +51,7 @@ test:
 production:
   <<: *default
   database: vpsproject_production
-  pool: 5
+  adapter: mysql2
   username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  socket: /run/mysqld/mysqld.sock
+  socket: /var/lib/mysql/mysql.sock
