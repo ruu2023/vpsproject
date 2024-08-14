@@ -52,6 +52,6 @@ production:
   <<: *default
   database: vpsproject_production
   pool: 5
-  username: rails_user
-  password: eFaazae4
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
   socket: /run/mysqld/mysqld.sock
